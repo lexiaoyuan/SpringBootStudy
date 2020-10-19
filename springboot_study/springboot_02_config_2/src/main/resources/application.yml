@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: test  # 激活test环境
+---  # yml支持分割线，表示多文档块
+# 开发环境
+server:
+  port: 8084
+spring:
+  profiles: dev
+
+---
+# 测试环境
+server:
+  port: 8085
+spring:
+  profiles: test

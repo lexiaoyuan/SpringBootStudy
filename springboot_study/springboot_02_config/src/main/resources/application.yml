@@ -1,0 +1,34 @@
+## 普通的key-value
+#name: lexiaoyuan
+#
+## 对象
+#student:
+#  name: lexiaoyuanbeta
+#  age: 21
+#
+## 行内写法
+#studentbeta: {name: lexiaoyuan, age: 21}
+#
+## 数组
+#pets:
+#  - dog
+#  - cat
+#  - pig
+#
+#petsbeta: [dog, cat, pig]
+
+person:
+  name: lexiaoyuan@lxy.com
+  age: ${random.int}
+  happy: true
+  birth: 1999/2/11
+  maps: {k1: v1, k2: v2}
+  lists:
+    - book
+    - code
+    - bug
+  dog:
+    name: ${person.hello:汪汪汪}胖哈beta  #如果person对象有hello属性，就取其值，否则取汪汪汪
+    age: 1
+  hello: hello world!
+
