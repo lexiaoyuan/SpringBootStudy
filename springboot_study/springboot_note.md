@@ -1,12 +1,14 @@
-Spring Boot学习
+[TOC]
+
+# Spring Boot学习
 
 > 官网：[https://spring.io/projects/spring-boot#overview](https://spring.io/projects/spring-boot#overview)
 >
 > 文档：[https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/)
-
-[TOC]
-
-
+>
+> 参考视频：[【狂神说Java】SpringBoot最新教程IDEA版通俗易懂_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1PE411i7CV)
+>
+> 项目完整参考代码：[lexiaoyuan/SpringBootStudy: My Spring Boot study notes (github.com)](https://github.com/lexiaoyuan/SpringBootStudy)、[SpringBootStudy: 我的Spring Boot学习笔记 (gitee.com)](https://gitee.com/lexiaoyuan/spring-boot-study)
 
 ## 第一个Spring Boot 程序
 
@@ -819,7 +821,7 @@ server:
 
 ![image-20200421215059439](noteImage/image-20200421215059439.png)
 
-- 现在运行以下项目，看会启动那个端口
+- 现在运行以下项目，看会启动哪个端口
 
 ![image-20200421215145601](noteImage/image-20200421215145601.png)
 
@@ -4778,7 +4780,7 @@ public ShiroDialect getShiroDialect(){
 
 ![image-20200503102847419](noteImage/image-20200503102847419.png)
 
-- 用beta的账户登录，只要update权限，就只显示update页面
+- 用beta的账户登录，只有update权限，就只显示update页面
 
 ![image-20200503103014770](noteImage/image-20200503103014770.png)
 
